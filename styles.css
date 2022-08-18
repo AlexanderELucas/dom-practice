@@ -1,0 +1,125 @@
+/* alternate color between #e7e8e8 and #101f1f */
+
+
+/* hide scrollbar but still maintain scrolling*/
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scrollbar-width: none;
+}
+
+
+/* strike left and right transparent background set for page styling */
+.strike {
+    background-color: #E7E8E8;
+}
+
+
+/* Header*/
+#nav-bar {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(16,31,31,1) 80%, rgba(16,31,31,1) 100%);
+   
+}
+#header-img {
+    object-fit: contain;
+    width: 150px; 
+}
+#logo-name {
+    color: white;
+}
+.nav-button {
+    border-radius: 50% 20% / 20% 40%;
+    background-color: #E7E8E8;
+    transition: 0.6s;
+}
+.nav-button:hover {
+    border-radius: 20% 40% / 50% 20%;
+    background-color: #a6a9a9;    
+}
+.sticky-nav {
+    background-color: #101f1f;
+}
+
+
+
+/* About Kuroheim */
+.blurb>p {
+    font-size: 1.4em;
+}
+.blurb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+/* Community Slides */
+.community {
+    background-color: #E7E8E8;
+    color: #101f1f
+}
+/* Battle Slides */
+.battle {
+    background-color: #101f1f;
+    color: #E7E8E8;
+}
+/* Service Slides */
+.service {
+    background-color: #E7E8E8;
+    color: #101f1f;
+}
+
+
+
+
+/* Kuroheim in Action */
+#kuroheim-in-action {
+    background-color: #101f1f;
+    color: #E7E8E8;
+}
+/* set video to scale with Viewport */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.video-wrapper #video {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    bottom: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+
+
+/* Become a Benefactor */
+#benefactor {
+    background-color: #E7E8E8;
+    color: #101f1f; 
+}
+.bene-btn {
+    background-color: #101f1f;
+    color: #E7E8E8;
+    transition: 0.5s;
+}
+
+
+
+/* Kuroheim Email */
+#kuroheim-email {
+    background-color: #101f1f;
+    color: #E7E8E8;
+}
+
+.email-btn {
+    background-color: #E7E8E8;
+    color: #101f1f;
+    transition: 0.5s;
+}
